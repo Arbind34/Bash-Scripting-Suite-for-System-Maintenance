@@ -11,8 +11,6 @@ Stores timestamped .tar.gz backups in backups/
 Logs all activity in logs/script_logs.txt
 
 3. System Update & Cleanup Script
-
-
 Runs:
 apt update
 apt upgrade
