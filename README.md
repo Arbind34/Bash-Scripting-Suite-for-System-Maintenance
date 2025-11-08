@@ -3,6 +3,7 @@ A modular suite of Bash scripts designed for Linux systems to automate routine m
 This project is part of Assignment 5 (LinuxOS + LSP).
 
 ✅ Features
+
 1. Backup Script
 Compresses selected user folders
 Stores timestamped .tar.gz backups in backups/
