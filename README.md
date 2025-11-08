@@ -6,9 +6,10 @@ This project is part of Assignment 5 (LinuxOS + LSP).
 
 1. Backup Script
    
-Compresses selected user folders
+.Compresses selected user folders
 Stores timestamped .tar.gz backups in backups/
 Logs all activity in logs/script_logs.txt
+
 3. System Update & Cleanup Script
 Runs:
 apt update
@@ -17,12 +18,14 @@ autoremove
 autoclean
 Helps maintain system integrity
 Logs all output
-4. Log Monitoring Script
+
+5. Log Monitoring Script
 Monitors system logs in real time (/var/log/syslog, /var/log/auth.log)
 Detects patterns (configured in log_monitor.conf)
 Logs alerts into script_logs.txt
 Supports optional email alerts using mail command
-5. Maintenance Menu
+
+7. Maintenance Menu
 Interactive menu to run all tools from one place:
 
 Run backup
@@ -30,7 +33,9 @@ Perform system update & cleanup
 Start live log monitoring
 View Script Logs
 Exit
+
 ✅ Installation & Setup
+
 1. Make scripts executable
 From inside the scripts folder:
 
