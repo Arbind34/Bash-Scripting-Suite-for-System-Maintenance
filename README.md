@@ -11,6 +11,8 @@ Stores timestamped .tar.gz backups in backups/
 Logs all activity in logs/script_logs.txt
 
 3. System Update & Cleanup Script
+
+
 Runs:
 apt update
 apt upgrade
@@ -19,7 +21,7 @@ autoclean
 Helps maintain system integrity
 Logs all output
 
-5. Log Monitoring Script
+4. Log Monitoring Script
 Monitors system logs in real time (/var/log/syslog, /var/log/auth.log)
 Detects patterns (configured in log_monitor.conf)
 Logs alerts into script_logs.txt
